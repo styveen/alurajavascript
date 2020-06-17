@@ -12,7 +12,8 @@ if (idadeComprador < 18 || !estaAcompanhada) {
 }
 
 console.log(`Destinos possíveis: `);
-for (i = 0; i < listaDeDestinos.length; i++) {
+
+for (let i = 0; i < listaDeDestinos.length; i++) {
     console.log(listaDeDestinos[i]);
 }
 
